@@ -1,0 +1,29 @@
+.components {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.appointment-actions {
+  margin: 4em 0 3em;
+}
+
+button {
+  font-weight: normal;
+  color: #2b2b2b;
+  cursor: pointer;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  padding: 2px 25px;
+  background: #cccccc;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 17%,#cccccc 100%);
+  background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 17%,#cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 );
+  font-size: 14px;
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 900px) {
+
+}

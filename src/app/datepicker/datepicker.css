@@ -1,0 +1,118 @@
+:host {
+    position: relative;
+    width: 18em;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    height: 24px;
+    min-width: 190px;
+    width: 230px;
+    padding: 0 10px;
+}
+
+img {
+    position: absolute;
+    width: 25px;
+    margin-left: 5px;
+}
+
+.ui-datepicker {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    z-index: 1;
+    width: 17em;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.datepicker-header {
+    background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 17%,#cccccc 100%);
+    color: #222222;
+    font-weight: bold;
+    min-height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.datepicker-header h5 {
+    margin: 5px;
+    font-family: Verdana,Arial,sans-serif;
+}
+
+.datepicker-header button {
+    position: relative;
+    height: 20px;
+    background-color: #323232;
+    border-radius: 50%;
+    border: 0;
+    width: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.datepicker-header button img {
+    position: relative;
+    width: 17px;
+    margin: -5px;
+}
+
+.datepicker-nav {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .9em;
+}
+
+.datepicker-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day {
+    font-family: Verdana,Arial,sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 400;
+    flex-basis: calc(100% / 7);
+    max-width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: right;
+    border: 1px solid #d3d3d3;
+    background-color: #e6e6e6;
+    font-weight: normal;
+    color: #555555;
+    padding-right: .2em;
+    font-size: .9em;
+}
+
+.day:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.day.selected {
+    border: 1px solid #fcefa1;
+    background-color: #fbf9ee;
+    color: #363636;
+}
+
+.empty-day {
+    opacity: .35;
+    background-image: none;
+    cursor: none;
+    pointer-events: none;
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "value": "any",
+        "label": "Any date"
+    },
+    {
+        "value": "weekdays",
+        "label": "Only weekdays"
+    },
+    {
+        "value": "weekends",
+        "label": "Only weekends"
+    }
+]

@@ -1,0 +1,21 @@
+:host {
+    position: relative;
+    width: 18em;
+}
+
+select {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    height: 24px;
+    min-width: 190px;
+    width: 252px;
+    padding: 0 10px;
+}
+
+img {
+    position: absolute;
+    width: 25px;
+    margin-left: 5px;
+    top: 0;
+}

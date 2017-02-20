@@ -1,0 +1,40 @@
+{
+  "name": "calendar",
+  "version": "0.0.1",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "html-loader": "^0.4.4",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.2",
+    "standard": "^8.6.0",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "start": "cd src; python -m SimpleHTTPServer",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "standard": {
+    "globals": [
+      "CustomEvent",
+      "HTMLElement",
+      "customElements",
+      "jasmine",
+      "describe",
+      "beforeEach",
+      "it",
+      "expect"
+    ],
+    "ignore": [
+      "src/bundle.js"
+    ]
+  }
+}
