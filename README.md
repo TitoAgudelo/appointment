@@ -12,9 +12,15 @@ yarn (brew update & brew install yarn)
 - [Webpack](https://webpack.js.org/) module bundler ...
 webpack (yarn add --dev webpack)
 
-## In terminal
+## Getting Started
+
+Run in terminal
+
 - yarn (to install dependencies)
-- yarn start (run python serve)
 - yarn build (build webpack)
+- yarn start (run python serve)
+
+Test & build watch
+
 - yarn build:watch (webpack --watch)
 - yarn test (karma test)
